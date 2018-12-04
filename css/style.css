@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+#app-container {
+  width: 375px;
+  height: 667px;
+  margin: auto;
+  padding: 0;
+  background-color: #fff;
+  border: solid 1px gray;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.app-box {
+  margin: center;
+  text-align: center;
+  font-family: playfair display, serif;
+}
+
+.double-row {
+  flex-grow: 2;
+}
+.single-row {
+  flex-grow: 1;
+}
+#title-box > h1 {
+  font-weight: 70;
+}
+#app-inputs-top,
+#app-inputs-bottom {
+  border: solid 0.75px gray;
+  width: 80%;
+  margin: auto;
+  padding: 9px;
+}
+#app-inputs-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#app-inputs-bottom {
+  border-top: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+label {
+  width: 25%;
+  float: left;
+  text-align: left;
+  font-weight: 70;
+  padding-left: 0;
+}
+
+input[type="text"],
+input[type="Social"] {
+  caret-color: #4caf50;
+  border: 0;
+  padding-left: 0;
+  font-color: lightgray;
+}
+
+button {
+  background-color: #ffffff;
+  color: #4c4c4c;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  float: center;
+  line-height: 25px;
+  margin-left: 15px;
+}
+.activeButton {
+  color: blue;
+}
+
+#icon-box > img{
+  width:250px;
+  height:150px;
+  
+}
+.links a {
+  padding: 14px 0 16px 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: green;
+}
